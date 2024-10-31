@@ -1,5 +1,50 @@
+/* General Body Styles */
 body {
     padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  }
-  
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Header Styles */
+header {
+    background: #018ABD; /* Green background */
+    color: white; /* White text */
+    padding: 10px; /* Space inside header */
+    text-align: center; /* Center-align the text */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Content Styles */
+.content {
+    margin: 20px 0; /* Space above and below the content */
+    padding: 40px; /* Space inside the content area */
+    background: #f8fafc; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Container Style */
+.container {
+    margin: 20px 0; /* Space above and below the content */
+    padding: 40px; /* Space inside the content area */
+    background: #DDE8F0; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    margin: 10px 0; /* Space between buttons */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.container:hover {
+    background-color: #aed6f3; /* Darker background on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Center-align footer text */
+    margin-top: 20px; /* Space above footer */
+    padding: 10px; /* Space inside footer */
+    background: #004581; /* Dark background */
+    color: white; /* White text */
+    border-radius: 8px; /* Rounded corners */
+}
