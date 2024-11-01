@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    
 </head>
 <body>
     <header>
         <h2>ITE5315 Assignment 2</h2>
         <p>Name: Alex Batac | Student ID: N01579147</p> 
+        {{> navbar }}
     </header>
+    
     <div class="content">
         {{{body}}} <!-- Dynamic content will be injected here -->
     </div>
